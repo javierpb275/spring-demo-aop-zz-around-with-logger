@@ -32,7 +32,7 @@ public class AroundWithLoggerDemoApp {
 		
 		myLogger.info("\nMy fortune is: " + data);
 			
-		myLogger.info("Finished");
+		myLogger.info("Finished");//we are gonna print the data to that logger output string that 's the on that spring framework is using to keep things in order and synchronized
 					
 		// close the context
 		context.close();
