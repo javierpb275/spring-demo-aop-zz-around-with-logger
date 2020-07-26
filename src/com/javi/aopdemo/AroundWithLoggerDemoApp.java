@@ -1,6 +1,7 @@
 package com.javi.aopdemo;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -9,6 +10,9 @@ import com.javi.aopdemo.dao.MembershipDAO;
 import com.javi.aopdemo.service.TrafficFortuneService;
 
 public class AroundWithLoggerDemoApp {
+	
+	public static Logger myLogger =
+			Logger.getLogger(AroundWithLoggerDemoApp.class.getName());
 
 	public static void main(String[] args) {
 		
